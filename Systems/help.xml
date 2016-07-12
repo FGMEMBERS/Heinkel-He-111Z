@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <title>Heinkel He 111Z Zwilling</title>
+  <line>______________________________________________</line>
+  <key>
+    <name>d</name>
+    <desc>Open/Close left gun door</desc>
+  </key>
+  <key>
+    <name>D</name>
+    <desc>Open/Close right gun door</desc>
+  </key>
+  
+</PropertyList>

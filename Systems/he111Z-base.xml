@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <sim include="views.xml">
+ 
+    <fuel-fraction>0.8</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/Heinkel-He-111Z/he111Z-splash.png</splash-texture>
+    </startup>
+
+    <model>
+      <path>Aircraft/Heinkel-He-111Z/Models/he111Z.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <sound>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/he111Z-sound.xml</path>
+    </sound>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int   n="0"  type="int">  0 </int>                                          <!--  0 immat -->
+        <int   n="1"  type="int">  0 </int>                                          <!--  1 immat -->
+        <int   n="2"  type="int">  0 </int>                                          <!--  2 immat -->
+        <int   n="3"  type="int">  0 </int>                                          <!--  3 immat -->
+        <int   n="4"  type="int">  0 </int>                                          <!--  4 immat -->
+        <int   n="5"  type="int">  0 </int>                                          <!--  5 immat -->
+        <int   n="6"  type="bool"> 1 </int>                                          <!--  6 smoke/bomb/torpedo -->
+        <int   n="7"  type="int">  0 </int>                                          <!--  7 -->
+        <int   n="8"  type="int">  0 </int>                                          <!--  8 nav-lights -->
+        <int   n="9"  type="int" alias="/sim/model/lights/beacon/state">false</int>  <!--  9 strobe-lights -->
+        <float n="0"  alias="/sim/model/door-positions/crew/position-norm"/>
+        <float n="1"  alias="/sim/model/door-positions/passenger/position-norm"/>
+        <float n="2"  alias="/position/gear-agl-m"> 0 </float>                       <!-- altitude for MP shadow -->
+        <float n="3"  alias="/position/altitude-ft"> 0 </float>                      <!-- altitude for Smoke/Trail -->
+        <float n="4"  alias="/engines/engine[0]/rpm"/>
+        <float n="5"  alias="/engines/engine[1]/rpm"/>
+        <float n="6"  alias="/engines/engine[2]/rpm"/>
+        <float n="7"  alias="/engines/engine[3]/rpm"/>
+        <float n="8"  alias="/engines/engine[4]/rpm"/>
+        <float n="9"  alias="/engines/engine[0]/cranking"/>
+        <float n="10" alias="/engines/engine[1]/cranking"/>
+        <float n="11" alias="/engines/engine[2]/cranking"/>
+        <float n="12" alias="/engines/engine[3]/cranking"/>
+        <float n="13" alias="/engines/engine[4]/cranking"/>
+        <!-- For Bombable -->
+        <int   n="10" type="int" alias="controls/armament/trigger">0</int>
+        <string n="9" type="string" />
+      </generic>
+    </multiplay>
+    
+    <flaps include="flaps.xml"/>
+
+    <help include="help.xml"/>
+
+    <menubar include="../Dialogs/he111Z-menu.xml"/>
+
+  </sim>
+
+  <input include="he111Z-keyboard.xml"/>
+  
+  <controls include="controls.xml"/>
+
+  <engines include="engines.xml"/>
+
+  <nasal>
+    <doors>
+      <file>Aircraft/Heinkel-He-111Z/Nasal/doors.nas</file>
+    </doors>
+    <he111z>
+      <file>Aircraft/Heinkel-He-111Z/Nasal/light.nas</file>
+      <file>Aircraft/Heinkel-He-111Z/Nasal/liveries.nas</file>
+    </he111z>
+  </nasal>
+
+</PropertyList>
