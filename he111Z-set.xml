@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList include="Systems/he111Z-base.xml">
+  
+  <sim>
+
+    <description>Heinkel He 111Z Zwilling (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+
+    <aircraft-version>0.2</aircraft-version>
+    <status>Alpha</status>
+    
+    <flight-model>yasim</flight-model>
+    <aero>Systems/he111Z-yasim</aero>
+    
+    <rating>
+      <FDM type="int">     2 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 2 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
+
+  </sim>
+
+</PropertyList>
