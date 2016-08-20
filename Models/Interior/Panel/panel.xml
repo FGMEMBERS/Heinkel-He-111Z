@@ -82,10 +82,6 @@
   </model>
 
   <!-- RPM -->
-<<<<<<< HEAD
-  <!-- Left -->
-=======
->>>>>>> svn/master
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm0.xml</path>
     <offsets>
@@ -95,10 +91,6 @@
     </offsets>
   </model>
 
-<<<<<<< HEAD
-  <!-- Right -->
-=======
->>>>>>> svn/master
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
     <offsets>
@@ -108,20 +100,6 @@
     </offsets>
   </model>
 
-<<<<<<< HEAD
-  <!-- MAN -->
-  <!-- Left -->
-  <model>
-    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man0.xml</path>
-    <offsets>
-      <x-m> 0.014 </x-m>
-      <y-m> 0.103 </y-m>
-      <z-m> 0.021 </z-m>
-    </offsets>
-  </model>
-
-  <!-- Right -->
-=======
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm2.xml</path>
     <offsets>
@@ -159,24 +137,15 @@
     </offsets>
   </model>
 
->>>>>>> svn/master
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man1.xml</path>
     <offsets>
       <x-m> 0.014 </x-m>
-<<<<<<< HEAD
-      <y-m> 0.183 </y-m>
-=======
       <y-m> 0.063 </y-m>
->>>>>>> svn/master
       <z-m> 0.021 </z-m>
     </offsets>
   </model>
 
-<<<<<<< HEAD
-</PropertyList>
-
-=======
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man2.xml</path>
     <offsets>
@@ -205,4 +174,3 @@
   </model>
   
 </PropertyList>
->>>>>>> svn/master

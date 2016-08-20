@@ -1,10 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-<<<<<<< HEAD
-MATERIAL "transparent" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
-=======
 MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
->>>>>>> svn/master
 OBJECT world
 kids 6
 OBJECT poly
@@ -13,13 +9,8 @@ loc 0 0 -0
 data 5
 cache
 texture "man.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 196
 -0.0005 -0.024627 0.020143
 -0.0005 -0.02021 0.024545
@@ -1349,13 +1340,8 @@ loc 0.005857 0 -0
 data 4
 face
 texture "man.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 17
 0.000647 -0.000179 -0.033911
 0.000647 0.012787 -0.031332
@@ -1478,13 +1464,8 @@ loc 0 0 -0
 data 4
 fond
 texture "man.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 296
 0.00497 -0.022792 0.022712
 0.00497 -0.017907 0.026705
@@ -3578,21 +3559,12 @@ refs 4
 kids 0
 OBJECT poly
 name "needle"
-<<<<<<< HEAD
-loc 0.006273 -0 -0
-data 6
-needle
-texture "man.png"
-texrep 1 1
-crease 30.000001
-=======
 loc 0.006273 0 -0
 data 6
 needle
 texture "man.png"
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 14
 0.000854 -0.027692 -0.000238
 0.000854 -0.029981 0.000252
@@ -3685,13 +3657,8 @@ loc 0 0 -0
 data 6
 visses
 texture "man.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 292
 0.007539 0.030733 0.02988
 0.007434 0.030184 0.030204
@@ -5936,11 +5903,7 @@ name "vitre"
 loc 0.001464 0 -0
 data 5
 vitre
-<<<<<<< HEAD
-crease 30.000001
-=======
 crease 180.000005
->>>>>>> svn/master
 numvert 33
 0.007411 0.027725 -0.01862
 0.007411 0.03082 -0.012827

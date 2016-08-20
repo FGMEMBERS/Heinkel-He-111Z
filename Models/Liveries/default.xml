@@ -3,10 +3,7 @@
 <PropertyList>
 
   <sim>
-<<<<<<< HEAD
-=======
     
->>>>>>> svn/master
     <model>
       <livery>
         <name type="string">Default</name>
@@ -16,20 +13,9 @@
           <green> 0.3 </green>
           <blue>  0.3 </blue>
         </specular>
-<<<<<<< HEAD
-
-        <emission>
-          <red>   0.2 </red>
-          <green> 0.2 </green>
-          <blue>  0.2 </blue>
-        </emission>
-      </livery>
-    </model>
-=======
       </livery>
     </model>
     
->>>>>>> svn/master
   </sim>
 
 </PropertyList>

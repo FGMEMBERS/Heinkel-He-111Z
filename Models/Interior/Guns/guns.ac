@@ -8,13 +8,8 @@ loc 0 0 -0
 data 4
 guns
 texture "guns.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 523
 0.171164 -0.01193 -0.002817
 0.171152 -0.012962 -0.000846

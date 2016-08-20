@@ -1,10 +1,6 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
-<<<<<<< HEAD
-MATERIAL "transparent" rgb 0.547091 0.565624 0.595981 amb 0 0 0 emis 0 0 0 spec 1 1 1 shi 50 trans 0.85
-=======
 MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
->>>>>>> svn/master
 OBJECT world
 kids 7
 OBJECT poly
@@ -13,13 +9,8 @@ loc 0.00197 0.003605 -0
 data 4
 ball
 texture "turn.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 49
 0.003261 -0.012795 0.000001
 0.00209 -0.009945 -0.000763
@@ -402,13 +393,8 @@ loc 0 0 -0
 data 5
 cache
 texture "turn.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 196
 -0.0005 -0.024627 0.020143
 -0.0005 -0.02021 0.024545
@@ -1738,13 +1724,8 @@ loc 0.002711 0 -0
 data 4
 face
 texture "turn.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 111
 0.00208 -0.010469 -0.022172
 0.00208 -0.008695 -0.023281
@@ -2581,13 +2562,8 @@ loc 0 0 -0
 data 4
 fond
 texture "turn.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 296
 0.00497 -0.022792 0.022712
 0.00497 -0.017907 0.026705
@@ -4685,13 +4661,8 @@ loc 0.002485 0 -0
 data 6
 needle
 texture "turn.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 37
 0.003791 -0.027255 0.000001
 0.003793 0.017093 -0.000763
@@ -4957,13 +4928,8 @@ loc 0 0 -0
 data 6
 visses
 texture "turn.png"
-<<<<<<< HEAD
-texrep 1 1
-crease 30.000001
-=======
 texrep 1.000000 1.000000
 crease 180.000005
->>>>>>> svn/master
 numvert 292
 0.007539 0.030733 0.02988
 0.007434 0.030184 0.030204
@@ -7208,11 +7174,7 @@ name "vitre"
 loc 0.000318 0 -0
 data 5
 vitre
-<<<<<<< HEAD
-crease 30.000001
-=======
 crease 180.000005
->>>>>>> svn/master
 numvert 33
 0.007353 0.027725 -0.01862
 0.007353 0.03082 -0.012827

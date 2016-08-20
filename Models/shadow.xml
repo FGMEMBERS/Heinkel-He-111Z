@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
-<PropertyList>
-
-  <path>shadow.ac</path>
-
-  <animation>
-    <!-- Objets opaques -->
-
-    <!-- Objets transparents -->
-    <object-name>shadow</object-name>
-  </animation>
-
-=======
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <PropertyList>
@@ -26,16 +11,11 @@
     <object-name>shadow</object-name>
   </animation>
   
->>>>>>> svn/master
   <animation>
     <type>noshadow</type>
     <object-name>shadow</object-name>
   </animation>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> svn/master
   <animation>
     <type>select</type>
     <object-name>shadow</object-name>
@@ -43,13 +23,6 @@
       <and>
         <not><property>sim/freeze/replay-state</property></not>
         <not><property>sim/rendering/shadows/enabled</property></not>
-<<<<<<< HEAD
-      </and>
-    </condition>
-  </animation>
-
-  <!-- Une ombre pour OSG en attendant mieux ;) basé sur l'ombre du DC 3-->
-=======
         <less-than>
           <property>sim/multiplay/generic/float[2]</property>
           <value>2000</value>
@@ -69,14 +42,10 @@
   </animation>
   
   <!-- A shadow for OSG waiting better ;) based on DC3's shadow -->
->>>>>>> svn/master
   <!-- pitch -->
   <animation>
     <type>rotate</type>
     <object-name>shadow</object-name>
-<<<<<<< HEAD
-    <property>/orientation/pitch-deg</property>
-=======
     <property>orientation/pitch-deg</property>
     <condition>
       <and>
@@ -90,7 +59,6 @@
         </less-than>
       </and>
     </condition>
->>>>>>> svn/master
     <factor> -1 </factor>
     <axis>
       <x> 0 </x>
@@ -98,20 +66,12 @@
       <z> 0 </z>
     </axis>
   </animation>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> svn/master
   <!-- roll -->
   <animation>
     <type>rotate</type>
     <object-name>shadow</object-name>
-<<<<<<< HEAD
-    <property>/orientation/roll-deg</property>
-=======
     <property>orientation/roll-deg</property>
->>>>>>> svn/master
     <factor> 1 </factor>
     <axis>
       <x> 1 </x>
@@ -119,24 +79,6 @@
       <z> 0 </z>
     </axis>
   </animation>
-<<<<<<< HEAD
-
-  <!-- Translate to ground level -->
-  <animation>
-   <type>translate</type>
-   <object-name>shadow</object-name>
-   <property>sim/multiplay/generic/float[2]</property>
-   <factor> -1 </factor>
-   <axis>
-     <x> 0 </x>
-     <y> 0 </y>
-     <z> 1 </z>
-   </axis>
- </animation>
-
-</PropertyList>
-
-=======
   
   <!-- translate to ground level -->
   <animation>
@@ -153,4 +95,3 @@
   </animation>
   
 </PropertyList>
->>>>>>> svn/master
