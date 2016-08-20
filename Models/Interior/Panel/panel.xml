@@ -82,7 +82,10 @@
   </model>
 
   <!-- RPM -->
+<<<<<<< HEAD
   <!-- Left -->
+=======
+>>>>>>> svn/master
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm0.xml</path>
     <offsets>
@@ -92,7 +95,10 @@
     </offsets>
   </model>
 
+<<<<<<< HEAD
   <!-- Right -->
+=======
+>>>>>>> svn/master
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
     <offsets>
@@ -102,6 +108,7 @@
     </offsets>
   </model>
 
+<<<<<<< HEAD
   <!-- MAN -->
   <!-- Left -->
   <model>
@@ -114,14 +121,88 @@
   </model>
 
   <!-- Right -->
+=======
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm2.xml</path>
+    <offsets>
+      <x-m> 0.014 </x-m>
+      <y-m> 0.267 </y-m>
+      <z-m> 0.092 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm3.xml</path>
+    <offsets>
+      <x-m> 0.014 </x-m>
+      <y-m> 0.350 </y-m>
+      <z-m> 0.046 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/rpm/rpm4.xml</path>
+    <offsets>
+      <x-m>  0.014 </x-m>
+      <y-m>  0.429 </y-m>
+      <z-m> -0.015 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MAN -->
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man0.xml</path>
+    <offsets>
+      <x-m>  0.014 </x-m>
+      <y-m> -0.020 </y-m>
+      <z-m>  0.021 </z-m>
+    </offsets>
+  </model>
+
+>>>>>>> svn/master
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man1.xml</path>
     <offsets>
       <x-m> 0.014 </x-m>
+<<<<<<< HEAD
       <y-m> 0.183 </y-m>
+=======
+      <y-m> 0.063 </y-m>
+>>>>>>> svn/master
       <z-m> 0.021 </z-m>
     </offsets>
   </model>
 
+<<<<<<< HEAD
 </PropertyList>
 
+=======
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man2.xml</path>
+    <offsets>
+      <x-m> 0.014 </x-m>
+      <y-m> 0.143 </y-m>
+      <z-m> 0.021 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man3.xml</path>
+    <offsets>
+      <x-m> 0.014 </x-m>
+      <y-m> 0.227 </y-m>
+      <z-m> 0.011 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/Interior/Panel/Instruments/man/man4.xml</path>
+    <offsets>
+      <x-m>  0.014 </x-m>
+      <y-m>  0.307 </y-m>
+      <z-m> -0.031 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
+>>>>>>> svn/master

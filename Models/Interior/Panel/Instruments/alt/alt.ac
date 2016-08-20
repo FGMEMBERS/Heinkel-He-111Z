@@ -1,6 +1,10 @@
 AC3Db
 MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+<<<<<<< HEAD
 MATERIAL "transparent" rgb 0.547091 0.565624 0.595981 amb 0 0 0 emis 0 0 0 spec 1 1 1 shi 50 trans 0.7
+=======
+MATERIAL "transparent" rgb 1 1 1 amb 0.5 0.5 0.5 emis 0 0 0 spec 1 1 1 shi 64 trans 0.85
+>>>>>>> svn/master
 OBJECT world
 kids 7
 OBJECT poly
@@ -9,8 +13,13 @@ loc 0 0 -0
 data 5
 cache
 texture "alt.png"
+<<<<<<< HEAD
 texrep 1 1
 crease 30.000001
+=======
+texrep 1.000000 1.000000
+crease 180.000005
+>>>>>>> svn/master
 numvert 196
 -0.0005 -0.024627 0.020143
 -0.0005 -0.02021 0.024545
@@ -1340,8 +1349,13 @@ loc 0.002109 0 -0
 data 4
 face
 texture "alt.png"
+<<<<<<< HEAD
 texrep 1 1
 crease 30.000001
+=======
+texrep 1.000000 1.000000
+crease 180.000005
+>>>>>>> svn/master
 numvert 23
 0.002981 0.000001 -0.032571
 0.002981 0.012465 -0.030092
@@ -1508,8 +1522,13 @@ loc 0 0 -0
 data 4
 fond
 texture "alt.png"
+<<<<<<< HEAD
 texrep 1 1
 crease 30.000001
+=======
+texrep 1.000000 1.000000
+crease 180.000005
+>>>>>>> svn/master
 numvert 296
 0.00497 -0.022792 0.022712
 0.00497 -0.017907 0.026705
@@ -3607,8 +3626,13 @@ loc 0.002109 0 -0
 data 8
 kilodisk
 texture "alt.png"
+<<<<<<< HEAD
 texrep 1 1
 crease 30.000001
+=======
+texrep 1.000000 1.000000
+crease 180.000005
+>>>>>>> svn/master
 numvert 9
 0.00213 -0.02281 0.013702
 0.00213 -0.009107 0.019379
@@ -3675,8 +3699,13 @@ loc 0.002109 0 -0
 data 6
 needle
 texture "alt.png"
+<<<<<<< HEAD
 texrep 1 1
 crease 30.000001
+=======
+texrep 1.000000 1.000000
+crease 180.000005
+>>>>>>> svn/master
 numvert 40
 0.003649 0.002484 -0.002482
 0.003649 0.00091 -0.003391
@@ -3980,8 +4009,13 @@ loc 0 0 -0
 data 6
 visses
 texture "alt.png"
+<<<<<<< HEAD
 texrep 1 1
 crease 30.000001
+=======
+texrep 1.000000 1.000000
+crease 180.000005
+>>>>>>> svn/master
 numvert 292
 0.007539 0.030733 0.02988
 0.007434 0.030184 0.030204
@@ -6226,7 +6260,11 @@ name "vitre"
 loc 0 0 -0
 data 5
 vitre
+<<<<<<< HEAD
 crease 30.000001
+=======
+crease 180.000005
+>>>>>>> svn/master
 numvert 34
 0.006079 -0.00014 -0.000001
 0.007222 0.028958 -0.019443
@@ -6261,7 +6299,11 @@ numvert 34
 0.007222 0.013253 -0.032333
 0.007222 0.019302 -0.029098
 0.007222 0.024607 -0.024747
+<<<<<<< HEAD
 0.007222 -0.000141 0
+=======
+0.007222 -0.000141 -0
+>>>>>>> svn/master
 numsurf 32
 SURF 0x10
 mat 1

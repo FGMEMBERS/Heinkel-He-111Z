@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 
+<<<<<<< HEAD
 <!-- <PropertyList include="he111Z-jsbsim-cnf.xml"> -->
 <PropertyList include="he111Z-yasim-cnf.xml">
 
+=======
+<PropertyList include="Systems/he111Z-base.xml">
+  
+>>>>>>> svn/master
   <sim>
 
     <description>Heinkel He 111Z Zwilling (YASim)</description>
     <author>BARANGER Emmanuel (3D/FDM)</author>
 
+<<<<<<< HEAD
     <rating>
       <FDM type="int">     1 </FDM>
       <systems type="int"> 0 </systems>
       <cockpit type="int"> 0 </cockpit>
       <model type="int">   3 </model>
+=======
+    <aircraft-version>0.2</aircraft-version>
+    <status>Alpha</status>
+    
+    <flight-model>yasim</flight-model>
+    <aero>Systems/he111Z-yasim</aero>
+    
+    <rating>
+      <FDM type="int">     2 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 2 </cockpit>
+      <model type="int">   4 </model>
+>>>>>>> svn/master
     </rating>
 
   </sim>
 
 </PropertyList>
+<<<<<<< HEAD
 
+=======
+>>>>>>> svn/master

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<<<<<<< HEAD
  
 <PropertyList>
 
@@ -240,4 +241,602 @@
 
 </fx>
  
+=======
+
+<PropertyList>
+  
+  <fx>
+    
+    <!-- Engine 1 -->
+    <crank>
+      <name>engstart1</name>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/start.wav</path>
+      <property>engines/engine[0]/cranking</property>
+      <volume>
+        <offset> 0.5 </offset>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </crank>
+    
+    <crank>
+      <name>crank1</name>
+      <mode>looped</mode>
+      <path>Sounds/cranking.wav</path>
+      <condition>
+        <property>engines/engine[0]/cranking</property>
+        <not>
+          <property>engines/engine[0]/running</property>
+        </not>
+      </condition>
+      <volume>
+        <offset>0.5</offset>
+      </volume>
+    </crank>
+    
+    <crank>
+      <name>cough1</name>
+      <path>Sounds/coughing.wav</path>
+      <property>engines/engine[0]/running</property>
+      <position>
+        <x> -1.8 </x>
+        <y>  0.0 </y>
+        <z>  0.0 </z>
+      </position>
+      <volume>
+        <offset>0.3</offset>
+      </volume>
+    </crank>
+    
+    <engine>
+      <name>engine-external-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine.wav</path>
+      <condition>
+        <property>engines/engine[0]/running</property>
+        <not>
+          <property>/sim/current-view/internal</property>
+        </not>
+      </condition>
+      <volume>
+        <property>engines/engine[0]/mp-osi</property>
+        <factor>0.018</factor>
+        <min>0.35</min>
+        <max>2</max>
+        <offset>0.35</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[0]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <engine>
+      <name>engine-internal-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine-int.wav</path>
+      <condition>
+        <and>
+          <property>engines/engine[0]/running</property>
+          <property>/sim/current-view/internal</property>
+        </and>  
+      </condition>
+      <volume>
+        <property>engines/engine[0]/mp-osi</property>
+        <factor>0.012</factor>
+        <min>0.4</min>
+        <max>1.5</max>
+        <offset>0.4</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[0]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <!-- Engine 2 -->
+    <crank>
+      <name>engstart1</name>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/start.wav</path>
+      <property>engines/engine[1]/cranking</property>
+      <volume>
+        <offset> 0.5 </offset>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </crank>
+    
+    <crank>
+      <name>crank1</name>
+      <mode>looped</mode>
+      <path>Sounds/cranking.wav</path>
+      <condition>
+        <property>engines/engine[1]/cranking</property>
+        <not>
+          <property>engines/engine[1]/running</property>
+        </not>
+      </condition>
+      <volume>
+        <offset>0.5</offset>
+      </volume>
+    </crank>
+    
+    <crank>
+      <name>cough1</name>
+      <path>Sounds/coughing.wav</path>
+      <property>engines/engine[1]/running</property>
+      <position>
+        <x> -1.8 </x>
+        <y>  0.0 </y>
+        <z>  0.0 </z>
+      </position>
+      <volume>
+        <offset>0.3</offset>
+      </volume>
+    </crank>
+    
+    <engine>
+      <name>engine-external-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine.wav</path>
+      <condition>
+        <property>engines/engine[1]/running</property>
+        <not>
+          <property>/sim/current-view/internal</property>
+        </not>
+      </condition>
+      <volume>
+        <property>engines/engine[1]/mp-osi</property>
+        <factor>0.018</factor>
+        <min>0.35</min>
+        <max>2</max>
+        <offset>0.35</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[1]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <engine>
+      <name>engine-internal-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine-int.wav</path>
+      <condition>
+        <and>
+          <property>engines/engine[1]/running</property>
+          <property>/sim/current-view/internal</property>
+        </and>  
+      </condition>
+      <volume>
+        <property>engines/engine[1]/mp-osi</property>
+        <factor>0.012</factor>
+        <min>0.4</min>
+        <max>1.5</max>
+        <offset>0.4</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[1]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <!-- Engine 3 -->
+    <crank>
+      <name>engstart1</name>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/start.wav</path>
+      <property>engines/engine[2]/cranking</property>
+      <volume>
+        <offset> 0.5 </offset>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </crank>
+    
+    <crank>
+      <name>crank1</name>
+      <mode>looped</mode>
+      <path>Sounds/cranking.wav</path>
+      <condition>
+        <property>engines/engine[2]/cranking</property>
+        <not>
+          <property>engines/engine[2]/running</property>
+        </not>
+      </condition>
+      <volume>
+        <offset>0.5</offset>
+      </volume>
+    </crank>
+    
+    <crank>
+      <name>cough1</name>
+      <path>Sounds/coughing.wav</path>
+      <property>engines/engine[2]/running</property>
+      <position>
+        <x> -1.8 </x>
+        <y>  0.0 </y>
+        <z>  0.0 </z>
+      </position>
+      <volume>
+        <offset>0.3</offset>
+      </volume>
+    </crank>
+    
+    <engine>
+      <name>engine-external-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine.wav</path>
+      <condition>
+        <property>engines/engine[2]/running</property>
+        <not>
+          <property>/sim/current-view/internal</property>
+        </not>
+      </condition>
+      <volume>
+        <property>engines/engine[2]/mp-osi</property>
+        <factor>0.018</factor>
+        <min>0.35</min>
+        <max>2</max>
+        <offset>0.35</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[2]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <engine>
+      <name>engine-internal-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine-int.wav</path>
+      <condition>
+        <and>
+          <property>engines/engine[2]/running</property>
+          <property>/sim/current-view/internal</property>
+        </and>  
+      </condition>
+      <volume>
+        <property>engines/engine[2]/mp-osi</property>
+        <factor>0.012</factor>
+        <min>0.4</min>
+        <max>1.5</max>
+        <offset>0.4</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[2]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <!-- Engine 4 -->
+    <crank>
+      <name>engstart1</name>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/start.wav</path>
+      <property>engines/engine[3]/cranking</property>
+      <volume>
+        <offset> 0.5 </offset>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </crank>
+    
+    <crank>
+      <name>crank1</name>
+      <mode>looped</mode>
+      <path>Sounds/cranking.wav</path>
+      <condition>
+        <property>engines/engine[3]/cranking</property>
+        <not>
+          <property>engines/engine[3]/running</property>
+        </not>
+      </condition>
+      <volume>
+        <offset>0.5</offset>
+      </volume>
+    </crank>
+    
+    <crank>
+      <name>cough1</name>
+      <path>Sounds/coughing.wav</path>
+      <property>engines/engine[3]/running</property>
+      <position>
+        <x> -1.8 </x>
+        <y>  0.0 </y>
+        <z>  0.0 </z>
+      </position>
+      <volume>
+        <offset>0.3</offset>
+      </volume>
+    </crank>
+    
+    <engine>
+      <name>engine-external-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine.wav</path>
+      <condition>
+        <property>engines/engine[3]/running</property>
+        <not>
+          <property>/sim/current-view/internal</property>
+        </not>
+      </condition>
+      <volume>
+        <property>engines/engine[3]/mp-osi</property>
+        <factor>0.018</factor>
+        <min>0.35</min>
+        <max>2</max>
+        <offset>0.35</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[3]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <engine>
+      <name>engine-internal-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine-int.wav</path>
+      <condition>
+        <and>
+          <property>engines/engine[3]/running</property>
+          <property>/sim/current-view/internal</property>
+        </and>  
+      </condition>
+      <volume>
+        <property>engines/engine[3]/mp-osi</property>
+        <factor>0.012</factor>
+        <min>0.4</min>
+        <max>1.5</max>
+        <offset>0.4</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[3]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <!-- Engine 5 -->
+    <crank>
+      <name>engstart1</name>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/start.wav</path>
+      <property>engines/engine[4]/cranking</property>
+      <volume>
+        <offset> 0.5 </offset>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </crank>
+    
+    <crank>
+      <name>crank1</name>
+      <mode>looped</mode>
+      <path>Sounds/cranking.wav</path>
+      <condition>
+        <property>engines/engine[4]/cranking</property>
+        <not>
+          <property>engines/engine[4]/running</property>
+        </not>
+      </condition>
+      <volume>
+        <offset>0.5</offset>
+      </volume>
+    </crank>
+    
+    <crank>
+      <name>cough1</name>
+      <path>Sounds/coughing.wav</path>
+      <property>engines/engine[4]/running</property>
+      <position>
+        <x> -1.8 </x>
+        <y>  0.0 </y>
+        <z>  0.0 </z>
+      </position>
+      <volume>
+        <offset>0.3</offset>
+      </volume>
+    </crank>
+    
+    <engine>
+      <name>engine-external-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine.wav</path>
+      <condition>
+        <property>engines/engine[4]/running</property>
+        <not>
+          <property>/sim/current-view/internal</property>
+        </not>
+      </condition>
+      <volume>
+        <property>engines/engine[4]/mp-osi</property>
+        <factor>0.018</factor>
+        <min>0.35</min>
+        <max>2</max>
+        <offset>0.35</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[4]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <engine>
+      <name>engine-internal-1</name>
+      <mode>looped</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/engine-int.wav</path>
+      <condition>
+        <and>
+          <property>engines/engine[4]/running</property>
+          <property>/sim/current-view/internal</property>
+        </and>  
+      </condition>
+      <volume>
+        <property>engines/engine[4]/mp-osi</property>
+        <factor>0.012</factor>
+        <min>0.4</min>
+        <max>1.5</max>
+        <offset>0.4</offset>
+      </volume>
+      <pitch>
+        <property>engines/engine[4]/rpm</property>
+        <factor>0.0005</factor>
+        <min>0.3</min>
+        <max>2.0</max>
+        <offset>0.3</offset>
+      </pitch>
+    </engine>
+    
+    <rumble>
+      <name>rumble</name>
+      <mode>looped</mode>
+      <path>Sounds/rumble.wav</path>
+      <condition>
+        <or>
+          <property>/gear/gear[0]/wow</property>
+          <property>/gear/gear[1]/wow</property>
+          <property>/gear/gear[2]/wow</property>
+        </or>
+      </condition>
+      <volume>
+        <property>/velocities/airspeed-kt</property>
+        <type>log</type>
+        <factor>0.25</factor>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </rumble>
+    
+    <gear>
+      <name>gear</name>
+      <mode>in-transit</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/gears.wav</path>
+      <property>/gear/gear[0]/position-norm</property>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </gear>
+    
+    <gear>
+      <name>gear-lock</name>
+      <path>Sounds/gear-lck.wav</path>
+      <condition>
+        <greater-than>
+          <property>/gear/gear[0]/position-norm</property>
+          <value>0.9</value>
+        </greater-than>
+      </condition>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </gear>
+    
+    <squeal>
+      <name>squeal</name>
+      <path>Sounds/squeal.wav</path>
+      <condition>
+        <or>
+          <property>/gear/gear[0]/wow</property>
+          <property>/gear/gear[1]/wow</property>
+          <property>/gear/gear[2]/wow</property>
+          <property>/gear/gear[3]/wow</property>
+        </or>
+      </condition>
+      <volume>
+        <property>/velocities/speed-down-fps</property>
+        <factor>0.5</factor>
+        <max>1.0</max>
+      </volume>
+      <volume>
+        <property>/velocities/airspeed-kt</property>
+        <factor>0.01</factor>
+        <max>1.0</max>
+      </volume>
+      <volume>
+        <internal>dt_stop</internal>
+        <factor>0.05</factor>
+        <max>1.0</max>
+      </volume>
+      <pitch>
+        <property>/velocities/airspeed-kt</property>
+        <factor>0.0025</factor>
+        <offset>0.5</offset>
+        <max>1.0</max>
+      </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </squeal>
+    
+    <flap>
+      <name>flaps</name>
+      <mode>in-transit</mode>
+      <path>Aircraft/Heinkel-He-111Z/Sounds/flaps.wav</path>
+      <property>surface-positions/flaps-pos-norm</property>
+      <volume>
+        <factor>0.8</factor>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </flap>
+    
+    <wind>
+      <name>wind</name>
+      <mode>looped</mode>
+      <path>Sounds/wind.wav</path>
+      <property>/velocities/airspeed-kt</property>
+      <volume>
+        <property>/velocities/airspeed-kt</property>
+        <factor>0.0025</factor>
+        <min>0.00</min>
+        <max>0.25</max>
+      </volume>
+      <pitch>
+        <property>/velocities/airspeed-kt</property>
+        <factor>0.01</factor>
+        <offset>0.5</offset>
+        <max>1.0</max>
+      </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </wind>
+    
+    <stall>
+      <name>stall</name>
+      <mode>looped</mode>
+      <path>Sounds/stall.wav</path>
+      <property>/sim/alarms/stall-warning</property>
+      <volume>
+        <property>/sim/alarms/stall-warning</property>
+        <max>1.0</max>
+      </volume>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </stall>
+    
+  </fx>
+  
+>>>>>>> svn/master
 </PropertyList>

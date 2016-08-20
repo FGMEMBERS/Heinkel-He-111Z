@@ -14,6 +14,7 @@
     <object-name>vitre</object-name>
   </animation>
 
+<<<<<<< HEAD
   <animation>
     <type>noshadow</type>
     <object-name>vitre</object-name>
@@ -26,6 +27,14 @@
     <object-name>vitre</object-name>
   </animation>
 
+=======
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Heinkel-He-111Z/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+>>>>>>> svn/master
   <animation>
     <type>material</type>
     <object-name>face</object-name>
@@ -57,5 +66,8 @@
   </animation>
 
 </PropertyList>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> svn/master

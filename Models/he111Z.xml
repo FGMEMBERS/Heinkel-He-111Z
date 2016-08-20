@@ -4,6 +4,14 @@
 
   <path>he111Z.ac</path>
 
+<<<<<<< HEAD
+=======
+  <!-- MP sound call -->
+  <sound>
+    <path>Aircraft/Heinkel-He-111Z/Sounds/mp-sound.xml</path>
+  </sound>
+  
+>>>>>>> svn/master
   <nasal>
     <load>
       var livery_update = aircraft.livery_update.new("Aircraft/Heinkel-He-111Z/Models/Liveries", 10);
@@ -13,9 +21,15 @@
       var float_0 = self.getNode("sim/multiplay/generic/float[0]", 1);
       var float_1 = self.getNode("sim/multiplay/generic/float[1]", 1);
       
+<<<<<<< HEAD
       var crew_door = self.getNode("instrumentation/doors/crew/position-norm", 1);
       var passenger_door = self.getNode("instrumentation/doors/passenger/position-norm", 1);
     
+=======
+      var crew_door = self.getNode("sim/model/door-positions/crew/position-norm", 1);
+      var passenger_door = self.getNode("sim/model/door-positions/passenger/position-norm", 1);
+      
+>>>>>>> svn/master
       crew_door.alias(float_0);
       passenger_door.alias(float_1);
     </load>
@@ -60,6 +74,7 @@
     <object-name>tmp</object-name>
 
     <object-name>echappes</object-name>
+<<<<<<< HEAD
     <object-name>axeG1</object-name>
     <object-name>roueG1</object-name>
     <object-name>axeG2</object-name>
@@ -69,6 +84,35 @@
     <object-name>axeD1</object-name>
     <object-name>roueD1</object-name>
     <object-name>roueAG</object-name>
+=======
+    <object-name>axeG1H</object-name>
+    <object-name>axeG1B</object-name>
+    <object-name>axeG1C</object-name>
+    <object-name>axeG1D</object-name>
+    <object-name>axeG1E</object-name>
+    <object-name>roueG1</object-name>
+    <object-name>axeG2H</object-name>
+    <object-name>axeG2B</object-name>
+    <object-name>axeG2C</object-name>
+    <object-name>axeG2D</object-name>
+    <object-name>axeG2E</object-name>
+    <object-name>roueG2</object-name>
+    <object-name>axeD2H</object-name>
+    <object-name>axeD2B</object-name>
+    <object-name>axeD2C</object-name>
+    <object-name>axeD2D</object-name>
+    <object-name>axeD2E</object-name>
+    <object-name>roueD2</object-name>
+    <object-name>axeD1H</object-name>
+    <object-name>axeD1B</object-name>
+    <object-name>axeD1C</object-name>
+    <object-name>axeD1D</object-name>
+    <object-name>axeD1E</object-name>
+    <object-name>roueD1</object-name>
+    <object-name>axeAG</object-name>
+    <object-name>roueAG</object-name>
+    <object-name>axeAD</object-name>
+>>>>>>> svn/master
     <object-name>roueAD</object-name>
     <object-name>heliceG1</object-name>
     <object-name>heliceG2</object-name>
@@ -79,7 +123,12 @@
 
     <!-- Objets transparents -->
     <object-name>vitres</object-name>
+<<<<<<< HEAD
     <object-name>vitretourelle</object-name>
+=======
+    <object-name>vitretourelleG</object-name>
+    <object-name>vitretourelleD</object-name>
+>>>>>>> svn/master
     <object-name>propdiscG1</object-name>
     <object-name>propblurG1</object-name>
     <object-name>propdiscG2</object-name>
@@ -125,6 +174,7 @@
     <object-name>tmp</object-name>
 
     <object-name>echappes</object-name>
+<<<<<<< HEAD
     <object-name>axeG1</object-name>
     <object-name>roueG1</object-name>
     <object-name>axeG2</object-name>
@@ -134,6 +184,35 @@
     <object-name>axeD1</object-name>
     <object-name>roueD1</object-name>
     <object-name>roueAG</object-name>
+=======
+    <object-name>axeG1H</object-name>
+    <object-name>axeG1B</object-name>
+    <object-name>axeG1C</object-name>
+    <object-name>axeG1D</object-name>
+    <object-name>axeG1E</object-name>
+    <object-name>roueG1</object-name>
+    <object-name>axeG2H</object-name>
+    <object-name>axeG2B</object-name>
+    <object-name>axeG2C</object-name>
+    <object-name>axeG2D</object-name>
+    <object-name>axeG2E</object-name>
+    <object-name>roueG2</object-name>
+    <object-name>axeD2H</object-name>
+    <object-name>axeD2B</object-name>
+    <object-name>axeD2C</object-name>
+    <object-name>axeD2D</object-name>
+    <object-name>axeD2E</object-name>
+    <object-name>roueD2</object-name>
+    <object-name>axeD1H</object-name>
+    <object-name>axeD1B</object-name>
+    <object-name>axeD1C</object-name>
+    <object-name>axeD1D</object-name>
+    <object-name>axeD1E</object-name>
+    <object-name>roueD1</object-name>
+    <object-name>axeAG</object-name>
+    <object-name>roueAG</object-name>
+    <object-name>axeAD</object-name>
+>>>>>>> svn/master
     <object-name>roueAD</object-name>
     <object-name>heliceG1</object-name>
     <object-name>heliceG2</object-name>
@@ -150,12 +229,15 @@
       <green-prop>specular/green</green-prop>
       <blue-prop>specular/blue</blue-prop>
     </specular>
+<<<<<<< HEAD
 
     <emission>
       <red-prop>emission/red</red-prop>
       <green-prop>emission/green</green-prop>
       <blue-prop>emission/blue</blue-prop>
     </emission>
+=======
+>>>>>>> svn/master
   </animation>
 
   <effect>
@@ -191,6 +273,7 @@
     <object-name>tmp</object-name>
   </effect>
 
+<<<<<<< HEAD
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
@@ -207,6 +290,33 @@
     <object-name>propblurD</object-name>
   </animation>
 
+=======
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Heinkel-He-111Z/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitres</object-name>
+    <object-name>vitretourelleG</object-name>
+    <object-name>vitretourelleD</object-name>
+  </effect>
+  
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>vitres</object-name>
+    <object-name>vitretourelleG</object-name>
+    <object-name>vitretourelleD</object-name>
+    <object-name>propdiscG1</object-name>
+    <object-name>propblurG1</object-name>
+    <object-name>propdiscG2</object-name>
+    <object-name>propblurG2</object-name>
+    <object-name>propdiscC</object-name>
+    <object-name>propblurC</object-name>
+    <object-name>propdiscD2</object-name>
+    <object-name>propblurD2</object-name>
+    <object-name>propdiscD1</object-name>
+    <object-name>propblurD1</object-name>
+  </effect>
+  
+>>>>>>> svn/master
   <!-- Une ombre pour OSG -->
   <model>
     <path>Aircraft/Heinkel-He-111Z/Models/shadow.xml</path>
@@ -380,6 +490,17 @@
   </model>
 
   <!-- L'hélice gauche extérieure --> 
+<<<<<<< HEAD
+=======
+  <animation>
+    <name>HeliceGauche1</name>
+    <object-name>heliceG1</object-name>
+    <object-name>bolG1</object-name>
+    <object-name>propdiscG1</object-name>
+    <object-name>propblurG1</object-name>
+  </animation>
+
+>>>>>>> svn/master
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -415,12 +536,17 @@
     <condition>
       <less-than>
         <property>engines/engine[0]/rpm</property>
+<<<<<<< HEAD
 	<value>1500</value>
+=======
+        <value>1500</value>
+>>>>>>> svn/master
       </less-than>
     </condition>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>HeliceGauche1</name>
     <object-name>heliceG1</object-name>
     <object-name>bolG1</object-name>
@@ -429,6 +555,8 @@
   </animation>
 
   <animation>
+=======
+>>>>>>> svn/master
     <type>spin</type>
     <object-name>HeliceGauche1</object-name>
     <condition>
@@ -452,6 +580,17 @@
   </animation>
 
   <!-- L'hélice gauche intérieur --> 
+<<<<<<< HEAD
+=======
+  <animation>
+    <name>HeliceGauche2</name>
+    <object-name>heliceG2</object-name>
+    <object-name>bolG2</object-name>
+    <object-name>propdiscG2</object-name>
+    <object-name>propblurG2</object-name>
+  </animation>
+
+>>>>>>> svn/master
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -487,12 +626,17 @@
     <condition>
       <less-than>
         <property>engines/engine[1]/rpm</property>
+<<<<<<< HEAD
 	<value>1500</value>
+=======
+        <value>1500</value>
+>>>>>>> svn/master
       </less-than>
     </condition>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>HeliceGauche2</name>
     <object-name>heliceG2</object-name>
     <object-name>bolG2</object-name>
@@ -501,6 +645,8 @@
   </animation>
 
   <animation>
+=======
+>>>>>>> svn/master
     <type>spin</type>
     <object-name>HeliceGauche2</object-name>
     <condition>
@@ -524,6 +670,17 @@
   </animation>
 
   <!-- L'hélice centrale--> 
+<<<<<<< HEAD
+=======
+  <animation>
+    <name>HeliceCentrale</name>
+    <object-name>heliceC</object-name>
+    <object-name>bolC</object-name>
+    <object-name>propdiscC</object-name>
+    <object-name>propblurC</object-name>
+  </animation>
+
+>>>>>>> svn/master
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -559,12 +716,17 @@
     <condition>
       <less-than>
         <property>engines/engine[2]/rpm</property>
+<<<<<<< HEAD
 	<value>1500</value>
+=======
+        <value>1500</value>
+>>>>>>> svn/master
       </less-than>
     </condition>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>HeliceCentrale</name>
     <object-name>heliceC</object-name>
     <object-name>bolC</object-name>
@@ -573,6 +735,8 @@
   </animation>
 
   <animation>
+=======
+>>>>>>> svn/master
     <type>spin</type>
     <object-name>HeliceCentrale</object-name>
     <condition>
@@ -596,6 +760,17 @@
   </animation>
 
   <!-- L'hélice droite intérieur --> 
+<<<<<<< HEAD
+=======
+  <animation>
+    <name>HeliceDroite2</name>
+    <object-name>heliceD2</object-name>
+    <object-name>bolD2</object-name>
+    <object-name>propdiscD2</object-name>
+    <object-name>propblurD2</object-name>
+  </animation>
+
+>>>>>>> svn/master
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -631,12 +806,17 @@
     <condition>
       <less-than>
         <property>engines/engine[3]/rpm</property>
+<<<<<<< HEAD
 	<value>1500</value>
+=======
+        <value>1500</value>
+>>>>>>> svn/master
       </less-than>
     </condition>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>HeliceDroite2</name>
     <object-name>heliceD2</object-name>
     <object-name>bolD2</object-name>
@@ -645,6 +825,8 @@
   </animation>
 
   <animation>
+=======
+>>>>>>> svn/master
     <type>spin</type>
     <object-name>HeliceDroite2</object-name>
     <condition>
@@ -668,6 +850,17 @@
   </animation>
 
   <!-- L'hélice gauche extérieure --> 
+<<<<<<< HEAD
+=======
+  <animation>
+    <name>HeliceDroite1</name>
+    <object-name>heliceD1</object-name>
+    <object-name>bolD1</object-name>
+    <object-name>propdiscD1</object-name>
+    <object-name>propblurD1</object-name>
+  </animation>
+
+>>>>>>> svn/master
   <!-- Séléction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
@@ -709,6 +902,7 @@
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>HeliceDroite1</name>
     <object-name>heliceD1</object-name>
     <object-name>bolD1</object-name>
@@ -717,6 +911,8 @@
   </animation>
 
   <animation>
+=======
+>>>>>>> svn/master
     <type>spin</type>
     <object-name>HeliceDroite1</object-name>
     <condition>
@@ -1045,7 +1241,15 @@
   <animation>
     <name>TrainGaucheComplet1</name>
     <object-name>roueG1</object-name>
+<<<<<<< HEAD
     <object-name>axeG1</object-name>
+=======
+    <object-name>axeG1H</object-name>
+    <object-name>axeG1B</object-name>
+    <object-name>axeG1C</object-name>
+    <object-name>axeG1D</object-name>
+    <object-name>axeG1E</object-name>
+>>>>>>> svn/master
   </animation>
 
   <animation>
@@ -1070,9 +1274,85 @@
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>TrainGaucheComplet2</name>
     <object-name>roueG2</object-name>
     <object-name>axeG2</object-name>
+=======
+    <type>rotate</type>
+    <object-name>axeG1C</object-name>
+    <object-name>axeG1D</object-name>
+    <object-name>axeG1E</object-name>
+    <property>gear/gear[0]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -75 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -75 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.85835 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -2.03425 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeG1D</object-name>
+    <object-name>axeG1E</object-name>
+    <property>gear/gear[0]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> 210 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> 210 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeG1D</object-name>
+    <property>gear/gear[0]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -85 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -85 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>TrainGaucheComplet2</name>
+    <object-name>roueG2</object-name>
+    <object-name>axeG2H</object-name>
+    <object-name>axeG2B</object-name>
+    <object-name>axeG2C</object-name>
+    <object-name>axeG2D</object-name>
+    <object-name>axeG2E</object-name>
+>>>>>>> svn/master
   </animation>
 
   <animation>
@@ -1097,9 +1377,85 @@
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>TrainDroitComplet2</name>
     <object-name>roueD2</object-name>
     <object-name>axeD2</object-name>
+=======
+    <type>rotate</type>
+    <object-name>axeG2C</object-name>
+    <object-name>axeG2D</object-name>
+    <object-name>axeG2E</object-name>
+    <property>gear/gear[1]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -75 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -75 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.85835 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -2.03425 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeG2D</object-name>
+    <object-name>axeG2E</object-name>
+    <property>gear/gear[1]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> 210 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> 210 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeG2D</object-name>
+    <property>gear/gear[1]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -85 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -85 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>TrainDroitComplet2</name>
+    <object-name>roueD2</object-name>
+    <object-name>axeD2H</object-name>
+    <object-name>axeD2B</object-name>
+    <object-name>axeD2C</object-name>
+    <object-name>axeD2D</object-name>
+    <object-name>axeD2E</object-name>
+>>>>>>> svn/master
   </animation>
 
   <animation>
@@ -1124,9 +1480,85 @@
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>TrainDroitComplet1</name>
     <object-name>roueD1</object-name>
     <object-name>axeD1</object-name>
+=======
+    <type>rotate</type>
+    <object-name>axeD2C</object-name>
+    <object-name>axeD2D</object-name>
+    <object-name>axeD2E</object-name>
+    <property>gear/gear[2]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -75 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -75 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.85835 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -2.03425 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeD2D</object-name>
+    <object-name>axeD2E</object-name>
+    <property>gear/gear[2]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> 210 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> 210 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeD2D</object-name>
+    <property>gear/gear[2]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -85 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -85 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>TrainDroitComplet1</name>
+    <object-name>roueD1</object-name>
+    <object-name>axeD1H</object-name>
+    <object-name>axeD1B</object-name>
+    <object-name>axeD1C</object-name>
+    <object-name>axeD1D</object-name>
+    <object-name>axeD1E</object-name>
+>>>>>>> svn/master
   </animation>
 
   <animation>
@@ -1151,8 +1583,80 @@
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <name>TrainArriereCompletG</name>
     <object-name>roueAG</object-name>
+=======
+    <type>rotate</type>
+    <object-name>axeD1C</object-name>
+    <object-name>axeD1D</object-name>
+    <object-name>axeD1E</object-name>
+    <property>gear/gear[3]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -75 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -75 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.85835 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -2.03425 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeD1D</object-name>
+    <object-name>axeD1E</object-name>
+    <property>gear/gear[3]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> 210 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> 210 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>axeD1D</object-name>
+    <property>gear/gear[3]/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep> -85 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -85 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.06000 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>TrainArriereCompletG</name>
+    <object-name>roueAG</object-name>
+    <object-name>axeAG</object-name>
+>>>>>>> svn/master
   </animation>
 
   <animation>
@@ -1160,6 +1664,7 @@
     <object-name>TrainArriereCompletG</object-name>
     <property>gear/gear[4]/position-norm</property>
     <interpolation>
+<<<<<<< HEAD
       <entry><ind> 0.0 </ind><dep> -45 </dep></entry>
       <entry><ind> 0.3 </ind><dep> -45 </dep></entry>
       <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
@@ -1168,6 +1673,16 @@
       <x-m>  5.924 </x-m>
       <y-m>  0.000 </y-m>
       <z-m> -0.324 </z-m>
+=======
+      <entry><ind> 0.0 </ind><dep> -75 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -75 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  6.20687 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -0.32450 </z-m>
+>>>>>>> svn/master
     </center>
     <axis>
       <x> 0 </x>
@@ -1179,6 +1694,10 @@
   <animation>
     <name>TrainArriereCompletD</name>
     <object-name>roueAD</object-name>
+<<<<<<< HEAD
+=======
+    <object-name>axeAD</object-name>
+>>>>>>> svn/master
   </animation>
 
   <animation>
@@ -1186,6 +1705,7 @@
     <object-name>TrainArriereCompletD</object-name>
     <property>gear/gear[5]/position-norm</property>
     <interpolation>
+<<<<<<< HEAD
       <entry><ind> 0.0 </ind><dep> -45 </dep></entry>
       <entry><ind> 0.3 </ind><dep> -45 </dep></entry>
       <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
@@ -1194,6 +1714,16 @@
       <x-m>  5.924 </x-m>
       <y-m>  0.000 </y-m>
       <z-m> -0.324 </z-m>
+=======
+      <entry><ind> 0.0 </ind><dep> -75 </dep></entry>
+      <entry><ind> 0.3 </ind><dep> -75 </dep></entry>
+      <entry><ind> 1.0 </ind><dep>   0 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  6.20687 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -0.32450 </z-m>
+>>>>>>> svn/master
     </center>
     <axis>
       <x> 0 </x>
@@ -1204,6 +1734,7 @@
 
   <!-- Compression -->
   <animation>
+<<<<<<< HEAD
     <type>translate</type>
     <object-name>roueG1</object-name>
     <property>gear/gear[0]/compression-norm</property>
@@ -1215,10 +1746,30 @@
       <x> 0 </x>
       <y> 0 </y>
       <z> 1 </z>
+=======
+    <name>RougeGauche1</name>
+    <object-name>roueG1</object-name>
+    <object-name>axeG1B</object-name>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>RougeGauche1</object-name>
+    <property>gear/gear[0]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 0.0000 </dep></entry>
+      <entry><ind> 1 </ind><dep> 0.1280 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> -0.0306 </x>
+      <y>  0.0000 </y>
+      <z>  0.1243 </z>
+>>>>>>> svn/master
     </axis>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <type>translate</type>
     <object-name>roueG2</object-name>
     <property>gear/gear[1]/compression-norm</property>
@@ -1230,10 +1781,50 @@
       <x> 0 </x>
       <y> 0 </y>
       <z> 1 </z>
+=======
+    <type>rotate</type>
+    <object-name>axeG1C</object-name>
+    <property>gear/gear[0]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 00 </dep></entry>
+      <entry><ind> 1 </ind><dep> 10 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -9.05442 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>RougeGauche2</name>
+    <object-name>roueG2</object-name>
+    <object-name>axeG2B</object-name>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>RougeGauche2</object-name>
+    <property>gear/gear[1]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 0.0000 </dep></entry>
+      <entry><ind> 1 </ind><dep> 0.1280 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> -0.0306 </x>
+      <y>  0.0000 </y>
+      <z>  0.1243 </z>
+>>>>>>> svn/master
     </axis>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <type>translate</type>
     <object-name>roueD2</object-name>
     <property>gear/gear[2]/compression-norm</property>
@@ -1245,10 +1836,50 @@
       <x> 0 </x>
       <y> 0 </y>
       <z> 1 </z>
+=======
+    <type>rotate</type>
+    <object-name>axeG2C</object-name>
+    <property>gear/gear[1]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 00 </dep></entry>
+      <entry><ind> 1 </ind><dep> 10 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m> -3.73390 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>RougeDroite2</name>
+    <object-name>roueD2</object-name>
+    <object-name>axeD2B</object-name>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>RougeDroite2</object-name>
+    <property>gear/gear[2]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 0.0000 </dep></entry>
+      <entry><ind> 1 </ind><dep> 0.1280 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> -0.0306 </x>
+      <y>  0.0000 </y>
+      <z>  0.1243 </z>
+>>>>>>> svn/master
     </axis>
   </animation>
 
   <animation>
+<<<<<<< HEAD
     <type>translate</type>
     <object-name>roueD1</object-name>
     <property>gear/gear[3]/compression-norm</property>
@@ -1263,6 +1894,68 @@
     </axis>
   </animation>
 
+=======
+    <type>rotate</type>
+    <object-name>axeD2C</object-name>
+    <property>gear/gear[2]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 00 </dep></entry>
+      <entry><ind> 1 </ind><dep> 10 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m>  3.73390 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>RougeDroite1</name>
+    <object-name>roueD1</object-name>
+    <object-name>axeD1B</object-name>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>RougeDroite1</object-name>
+    <property>gear/gear[3]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 0.0000 </dep></entry>
+      <entry><ind> 1 </ind><dep> 0.1280 </dep></entry>
+    </interpolation>
+    <axis>
+      <x> -0.0306 </x>
+      <y>  0.0000 </y>
+      <z>  0.1243 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>axeD1C</object-name>
+    <property>gear/gear[3]/compression-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep> 00 </dep></entry>
+      <entry><ind> 1 </ind><dep> 10 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -4.19419 </x-m>
+      <y-m>  9.05442 </y-m>
+      <z-m> -1.68984 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+>>>>>>> svn/master
   <!-- Rotation des roues lors du roulage -->
   <animation>
     <type>spin</type>
@@ -1371,7 +2064,11 @@
     <type>translate</type>
     <object-name>vitretourelleG</object-name>
     <object-name>tourtourelleG</object-name>
+<<<<<<< HEAD
     <property>/instrumentation/doors/crew/position-norm</property>
+=======
+    <property>sim/model/door-positions/crew/position-norm</property>
+>>>>>>> svn/master
     <interpolation>
       <entry><ind> 0 </ind><dep>  0.0 </dep></entry>
       <entry><ind> 1 </ind><dep> -0.9 </dep></entry>
@@ -1387,7 +2084,11 @@
     <type>translate</type>
     <object-name>vitretourelleD</object-name>
     <object-name>tourtourelleD</object-name>
+<<<<<<< HEAD
     <property>/instrumentation/doors/passenger/position-norm</property>
+=======
+    <property>sim/model/door-positions/passenger/position-norm</property>
+>>>>>>> svn/master
     <interpolation>
       <entry><ind> 0 </ind><dep>  0.0 </dep></entry>
       <entry><ind> 1 </ind><dep> -0.9 </dep></entry>
@@ -1399,5 +2100,64 @@
     </axis>
   </animation>
 
+<<<<<<< HEAD
 </PropertyList>
 
+=======
+  <!-- Lighting effects -->
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/lights/beacon.xml</path>
+    <offsets>
+      <x-m> 6.90497 </x-m>
+      <y-m> 6.40001 </y-m>
+      <z-m> 2.78365 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/lights/beacon.xml</path>
+    <offsets>
+      <x-m>  6.90497 </x-m>
+      <y-m> -6.40001 </y-m>
+      <z-m>  2.78365 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/lights/RedLight.xml</path>
+    <offsets>
+      <x-m>  -2.77725 </x-m>
+      <y-m> -17.66958 </y-m>
+      <z-m>   0.70742 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/lights/StrobeLight.xml</path>
+    <offsets>
+      <x-m>  -2.77298 </x-m>
+      <y-m> -17.66958 </y-m>
+      <z-m>   0.70760 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/lights/GreenLight.xml</path>
+    <offsets>
+      <x-m>  -2.77725 </x-m>
+      <y-m> -17.66958 </y-m>
+      <z-m>   0.70742 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Heinkel-He-111Z/Models/lights/StrobeLight.xml</path>
+    <offsets>
+      <x-m> -2.77298 </x-m>
+      <y-m> 17.66958 </y-m>
+      <z-m>  0.70760 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
+>>>>>>> svn/master
