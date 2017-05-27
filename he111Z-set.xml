@@ -20,6 +20,20 @@
       <model type="int">   4 </model>
     </rating>
 
+    <tags>
+      <tag>heinkel</tag>
+      <tag>low-wing</tag>
+      <tag>tail-dragger</tag>
+      <tag>retractable-gear</tag>
+      <tag>castering-wheel</tag>
+      <tag>propeller</tag>
+      <tag>multi-engine</tag>
+      <tag>piston</tag>
+      <tag>1940s</tag>
+      <tag>ww2</tag>
+    </tags>
+     
+
   </sim>
 
 </PropertyList>
